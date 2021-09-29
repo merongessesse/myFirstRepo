@@ -1,46 +1,56 @@
-.contents-list, .copyright-list, .comments-list,.comments-list ul{
-    list-style-type: none;
-    padding:0;
+body{
+    color: #404040 ;
+    font: 11pt ;
+    font-family: Georgia, Garamond;
 }
-h1, h2, h3, h4, h5, h6{
-    color:#A4A400 ;
-    background-color: #F0F0F0;
-    text-align: left;
-    font-family: Lucida Sans Unicode, Helvetica, Arial, sans-serif;
-    font-size: 18pt;
+h2,h1{
     text-decoration: underline;
+    color: #A4A400;
+    background-color: #F0F0F0;
+}
+h1{
+    text-align: center;
+    font: 22pt bold;
+    font-family: 'Lucida Sans', Helvetica, Arial;
+    /*background-image: url("../images/background.gif");*/
+}
+h2{
+    text-align: left;
+    font: 18pt normal;
+}
+a{
+    text-decoration: underline;
+    color: #A4A400;
+
+}
+.deleted-word {
+    text-decoration: line-through;
 }
 
-h1.mainheader{
-    text-align: center;
+abbr {
     text-decoration: underline;
-    font-size: 22pt;
-    font-weight: bold;
+}
+.comments {
+    font-style: italic;
+    background-color: #FFFFA8;
 }
 em{
     font-weight: bold;
     font-style: normal;
 }
-.comments-list{
-    margin-left: 40px;
-}
-.comments-list>li>ul{
+p.coloredParagraph{
     background-color: #FFFFA8;
 }
-.copyright-list{
-    display: inline-block;
-}
-.copyright-list>li{
-    text-align: right;
-}
-body{
-    margin: 20px;
+ul.listWithNoBullet{
+    list-style-type: none;
     padding: 0;
-    background-image: url("silverware.jpg");
+    margin: 0;
 }
-section{
-    margin-left: 10px;
+section.copyrightSection{
+    font-family: monospace;
 }
-footer{
-    margin-left: 10px;
+section.userComment{
+    align-content: center;
+    padding-left: 5%;
+    padding-right: 5%;
 }
