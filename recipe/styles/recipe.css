@@ -1,0 +1,46 @@
+.contents-list, .copyright-list, .comments-list,.comments-list ul{
+    list-style-type: none;
+    padding:0;
+}
+h1, h2, h3, h4, h5, h6{
+    color:#A4A400 ;
+    background-color: #F0F0F0;
+    text-align: left;
+    font-family: Lucida Sans Unicode, Helvetica, Arial, sans-serif;
+    font-size: 18pt;
+    text-decoration: underline;
+}
+
+h1.mainheader{
+    text-align: center;
+    text-decoration: underline;
+    font-size: 22pt;
+    font-weight: bold;
+}
+em{
+    font-weight: bold;
+    font-style: normal;
+}
+.comments-list{
+    margin-left: 40px;
+}
+.comments-list>li>ul{
+    background-color: #FFFFA8;
+}
+.copyright-list{
+    display: inline-block;
+}
+.copyright-list>li{
+    text-align: right;
+}
+body{
+    margin: 20px;
+    padding: 0;
+    background-image: url("silverware.jpg");
+}
+section{
+    margin-left: 10px;
+}
+footer{
+    margin-left: 10px;
+}
