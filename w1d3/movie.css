@@ -119,8 +119,7 @@ padding: 8px;
 font-weight: bold;
 } 
 .validation_section{
-    position: relative;
-  left: 93%;
+    float: right;
 }
 .rotten_column img{
     float: left;
