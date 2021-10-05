@@ -1,0 +1,42 @@
+#form-container {
+    padding: 20px;
+}
+
+#form-container>form {
+    display: grid;
+    grid-template-columns: auto;
+    padding: 10px;
+}
+
+.title {
+    font-size: 12pt;
+    margin-bottom: 5px;
+}
+
+.input-box {
+    font-size: 12pt;
+    padding: 5px;
+}
+
+#email-note {
+    color: #aaa;
+    font-size: 10pt;
+    margin-bottom: 10px;
+    padding: 5px;
+}
+
+.check-box {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+button {
+    background-color: #007bff;
+    padding: 8px;
+    color: white;
+    width: 100px;
+}
+
+#url {
+    margin-top: 10px;
+}
