@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Current time</title>
+    <%if(isDay){%>
+        <link href="/css/day.css" rel='stylesheet' />
+        <%}%>
+            <%if(!isDay){%>
+                <link href="/css/night.css" rel="stylesheet" />
+                <%}%>
+</head>
+
+<body>
+    This page was loaded at
+    <%= time%>
+</body>
+
+</html>
