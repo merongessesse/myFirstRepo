@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Products</title>
+    </head>
+    <body>
+        <ul>
+            <% for(let i=0; i<products.length; i++) {
+                %> 
+                    <%product=products[i];%>
+                    <li>
+                        <label><%=product.getName()%>
+                            <a href="/products/<%=product.getName()%>">View Product</a>
+                        </label>
+                        <ul>
+                            <li><%=product.getPrice()%></li>
+                            <li><%=product.getDescription()%></li>
+                        </ul>
+                    </li>
+                <%    
+            }
+            %>
+        </ul>
+    </body>
+</html>

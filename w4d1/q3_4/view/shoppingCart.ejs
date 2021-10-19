@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Products</title>
+    </head>
+    <body>
+        <ul>
+            <% for(prod in cart) {
+                %> 
+                    <li>
+                        <label> <%= prod %>: <%=cart[prod]%></label>
+                    </li>
+                <%
+            } %>
+        </ul>
+    </body>
+</html>
